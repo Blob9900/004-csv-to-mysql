@@ -1,0 +1,4 @@
+node_modules
+localdb_connection.session.sql
+password.js
+.vscode
