@@ -61,8 +61,6 @@ export function writeToDatabase(data) {
   payload.shift();
   payload.shift();
 
-  console.log([payload]);
-
   connection.connect(error => {
     if (error) {
       console.log(error);
